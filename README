@@ -20,7 +20,7 @@ of other environments.
 Bugs and Smells
 ---------------
 
-- The "make install" stuff isn't messy and not very Makefile-y.
+- The "make install" stuff is messy and not very Makefile-y.
 
 - I'm doing a weak attempt at Git versioning support because what's in master is
   broken for 2.17.2. I didn't test this with any other versions than 2.17.2 on
