@@ -12,11 +12,11 @@ set   expandtab
 set   ignorecase
 set   modelines=5
 set   ruler
-set   shiftwidth=4
+set   shiftwidth=2
 set   showmatch
 set   smartcase
-set   softtabstop=4
-set   tabstop=4
-set   textwidth=72
+set   softtabstop=2
+set   tabstop=2
+set   textwidth=90
 
 syntax on
