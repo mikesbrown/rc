@@ -1,0 +1,27 @@
+Purpose
+-------
+
+Quickly get necessary config files set up when on a new machine. Package
+installation is out of scope.
+
+Instructions
+------------
+
+Run "make". Inspect the "out/" directory. "make install" will write files into
+$HOME.  This will append or replace a file in $HOME depending on whether it's in
+the "append" or "replace" directory.
+
+Supported Environments
+----------------------
+
+This works on my OS X 10.13.6 "High Sierra" laptop. It probably works in plenty
+of other environments.
+
+Bugs and Smells
+---------------
+
+- The "make install" stuff isn't messy and not very Makefile-y.
+
+- I'm doing a weak attempt at Git versioning support because what's in master is
+  broken for 2.17.2. I didn't test this with any other versions than 2.17.2 on
+  this laptop.
