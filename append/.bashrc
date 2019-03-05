@@ -1,3 +1,7 @@
+export HISTCONTROL="ignoredups:erasedups"
+export HISTFILESIZE=5000
+shopt -s histappend
+
 case "${OSTYPE}" in
     darwin*)
         alias ls='ls -F -G'
