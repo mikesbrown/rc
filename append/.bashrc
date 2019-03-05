@@ -1,3 +1,4 @@
+export EDITOR="$(which vim)"
 export HISTCONTROL="ignoredups:erasedups"
 export HISTFILESIZE=5000
 shopt -s histappend
