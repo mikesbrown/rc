@@ -1,5 +1,5 @@
 SHELL             = bash
-.SHELLFLAGS       = -eu -o pipefail
+.SHELLFLAGS       = -c -eu -o pipefail
 
 OUT               = out
 
