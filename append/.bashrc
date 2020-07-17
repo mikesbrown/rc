@@ -1,6 +1,6 @@
 export EDITOR="$(which vim)"
 export HISTCONTROL="ignoredups:erasedups"
-export HISTFILESIZE=5000
+export HISTFILESIZE=500000
 shopt -s histappend
 
 case "${OSTYPE}" in
