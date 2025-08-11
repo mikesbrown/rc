@@ -26,6 +26,9 @@ $(OUT)/replace/%: replace/%
 $(OUT_GITFILES): bin/getgit.bash
 	$< $(@D)
 
+$(HOME)/.bak:
+	mkdir $@
+
 clean:
 	@rm -rf $(OUT)
 
@@ -39,6 +42,6 @@ append: $(OUT_APPEND_FILES)
 	    cat $$f >> $(HOME)/$$f;    \
 	done
 
-install: all append replace
+install: all append replace $(HOME)/.bak
 
 .PHONY: all clean install append replace
